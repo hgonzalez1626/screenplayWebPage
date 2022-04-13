@@ -1,0 +1,160 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Sucessfully search",
+        "description": "",
+        "id": "google-search;sucessfully-search;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "User visit the google web search",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User trie to search the next information",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "word"
+                ]
+              },
+              {
+                "cells": [
+                  "Automation"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "User verifies is success for the search",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Sucessfully search",
+        "description": "",
+        "id": "google-search;sucessfully-search;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "User visit the google web search",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User trie to search the next information",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "word"
+                ]
+              },
+              {
+                "cells": [
+                  "screenplay"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "User verifies is success for the search",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Sucessfully search",
+        "description": "",
+        "id": "google-search;sucessfully-search;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "User visit the google web search",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User trie to search the next information",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "word"
+                ]
+              },
+              {
+                "cells": [
+                  "gherkin"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "User verifies is success for the search",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Google Search",
+    "description": "  As a user I want to search the word automation in the platform google",
+    "id": "google-search",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/trn_googlesearch.feature",
+    "tags": []
+  }
+]
