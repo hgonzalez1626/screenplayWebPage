@@ -12,5 +12,3 @@ Feature: Google Search
       | word       |
       | Automation |
 
-      | screenplay |
-      | gherkin    |
