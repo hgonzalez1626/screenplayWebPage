@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Google Search" skipped="0" tests="1" time="7.85" timestamp="2022-04-23 06:26:20"><testcase name="Sucessfully search"><error message="Not a Map or List type: class java.lang.String" type="cucumber.runtime.CucumberException">Not a Map or List type: class java.lang.String</error><system-err>Not a Map or List type: class java.lang.String&#13;
-cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
-</system-err></testcase></testsuite>

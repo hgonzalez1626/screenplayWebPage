@@ -1,4 +1,5 @@
 apply plugin: 'java'
+apply plugin: 'net.serenity-bdd.aggregator'
 group 'co.com.google.certificacion.googlesearch'
 version '1.0-SNAPSHOT'
 description = 'Search word automation in Google'
@@ -8,6 +9,15 @@ repositories {
 ext{
     serenityVersion = '1.9.20'
     serenityCucumberVersion = '1.9.8'
+}
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("net.serenity-bdd:serenity-gradle-plugin:1.9.9")
+        classpath("org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:2.6.2")
+    }
 }
 dependencies {
     testImplementation "net.serenity-bdd:serenity-core:$rootProject.ext.serenityVersion"
